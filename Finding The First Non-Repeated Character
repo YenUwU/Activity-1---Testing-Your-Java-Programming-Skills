@@ -1,0 +1,19 @@
+package Fuedan;
+
+public class FindingTheFirstNonRepeatedCharacter {
+
+  public static void main(String[] args) {
+   
+String s = "SVT WORLD DOMINATION";
+ for(int i=0;i<s.length();i++) {
+   int count =0;
+   for(int L=0;L<s.length();i++) {
+     if(s.charaAt(i)==s.charAt(L)){
+       count++;
+     }
+   }
+   if(count==1){
+   System.out.println("First non repeating char is " + s.charAt(i));
+   break;
+  }
+ }
