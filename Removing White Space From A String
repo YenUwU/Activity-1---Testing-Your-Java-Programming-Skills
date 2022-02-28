@@ -1,0 +1,22 @@
+package Fuedan;
+
+//import java.util.Scanner;
+
+public class RemovingWhiteSpaceFromAString {
+//private static Scanner sc:
+  public static void main(String[] args) {
+   
+  }
+
+ String i = " You kinda smell , like a baka . Eren Yaeger .";
+ System.out.println("Sentence with whitespaces: " + i);
+ 
+ i = i.replaceAll("\\s","");
+ 
+System.out.println("Sentence after :" + i);
+
+
+
+  }
+  
+}
